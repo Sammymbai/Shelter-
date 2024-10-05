@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-Pesa Paybill Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: wheat ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .paybill {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .account-number {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .instructions {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>M-Pesa Paybill Payment</h1>
+        <div class="paybill">Paybill: 522533</div>
+        <div class="account-number">Account Number: 7809699</div>
+        <p class="instructions">To make a donation, use the Paybill and account number above in your M-Pesa app.</p>
+        <button class="button" onclick="alert('Thank you for your donation!')">Donate Now</button>
+    </div>
+
+</body>
+</html>
